@@ -1,45 +1,76 @@
-# Vendor Performance & Strategic Analytics
+# 📊 Vendor Performance & Strategic Analytics
 
-## 📌 Project Overview
-
-This project is an end-to-end analytical ecosystem designed to optimize procurement and vendor management. By processing **1.8 GB of retail data**, the project transitions from raw CSV ingestion to **Statistical Hypothesis Testing**, answering critical business questions regarding capital efficiency, vendor dependency, and pricing optimization.
-
-## 🚀 Key Analytical Objectives
-
-The project was engineered to solve the following business challenges:
-
-### **1. Strategic Growth & Pricing**
-
-* **Growth Opportunity:** Identified **"High Margin, Low Volume"** brands to unlock potential through targeted marketing and pricing adjustments.
-* **Bulk Purchase Optimization:** Conducted price-sensitivity analysis to determine if bulk purchasing reduces unit price and identified the **optimal purchase volume** for maximum cost savings.
-
-### **2. Vendor & Brand Performance**
-
-* **Sales Leadership:** Benchmarked Vendors and Brands to identify top-tier sales performers.
-* **Procurement Dependency:** Analyzed the concentration of total purchase dollars to determine the business's **dependency risk** on top-tier vendors.
-
-### **3. Inventory & Capital Efficiency**
-
-* **Slow-Moving Stock:** Identified vendors with **low inventory turnover**, highlighting inefficiencies and slow-moving products.
-* **Capital Analysis:** Calculated the exact **capital locked in unsold inventory** per vendor to prioritize stock liquidation strategies.
-
-### **4. Statistical Validation & Hypothesis Testing**
-
-To ensure data-driven decision-making, the project includes rigorous statistical validation:
-
-* **Confidence Intervals:** Calculated **95% Confidence Intervals** for profit margins of both top and low-performing vendors.
-* **Hypothesis Testing (A/B Testing Logic):**
-* **Null Hypothesis ($H_0$):** No significant difference exists in mean profit margins between vendor tiers.
-* **Alternative Hypothesis ($H_a$):** Mean profit margins are significantly different, justifying a tiered vendor management strategy.
+An end-to-end data analytics project that transforms **1.8GB+ of raw transactional data** into actionable business insights using **Python, SQL, and Power BI**.
 
 
 
-## 🛠️ Tech Stack & Methodology
+## Project Overview
 
-* **Data Ingestion:** Automated **Python (SQLAlchemy)** pipeline for **1.8 GB** datasets.
-* **SQL EDA:** Complex **T-SQL CTEs** for multi-million row aggregations and KPI calculations.
-* **Python EDA & Statistics:** Used **Pandas and Scipy** for EDA, Hypothesis Testing (T-Tests) and Confidence Intervals.
-* **Visualization:** **Power BI** for executive-level dashboards and **Matplotlib/Seaborn** for statistical distribution plots.
+This project builds a **production-grade analytics pipeline** to analyze vendor performance, procurement efficiency, and profitability.
+
+* Processed **12.8M sales records** and **2.3M purchase records**
+* Designed a multi-stage **ETL pipeline (Python + SQL)**
+* Created a **Power BI dashboard** for strategic decision-making
+* Applied **statistical analysis & hypothesis testing** for business insights
+
+
+
+## Tech Stack
+
+* **Python** (Pandas, NumPy, logging, Statistical Analysis)
+* **SQL (T-SQL)** – Data transformation & aggregation
+* **Power BI** – Data visualization & dashboarding
+* **SQLAlchemy** – Data pipeline integration
+
+
+
+## Key Insights
+
+* **73% Cost Reduction** achieved by shifting to bulk procurement
+* **Higher Margins in Low-Volume Vendors** (~33% vs 31.8%)
+* **Vendor Concentration Risk** → Top 10 vendors contribute **65%+**
+* Identified **low inventory turnover vendors** causing capital blockage
+
+
+
+## Dashboard Highlights
+![Dashboard](Dashboard_SS.jpg "Vendor Performance Analysis Dashboard")
+
+* Total Sales: **$450M+**
+* Profit Margin: **~32%**
+* Unsold Capital: **$8.35M**
+* Pareto Analysis (Top 10 Vendors Contribution)
+
+
+
+## Business Impact
+
+* Identified **“Hidden Gem” vendors** with high margins
+* Recommended **order consolidation strategy**
+* Balanced **high-volume vs high-margin vendor strategy**
+* Improved **inventory and procurement efficiency**
+
+
+## Key Features
+
+* Automated **data ingestion pipeline**
+* Large-scale **SQL aggregation (multi-million rows)**
+* **Statistical validation (T-Test, Confidence Intervals)**
+* Interactive **Power BI dashboard**
+
+
+
+## 📄 Project Report
+
+For detailed analysis, methodology, and insights:
+
+👉 *Refer to the full Project Report* : https://github.com/ShehrazSarwar/Vendor-Performance-Analysis/blob/main/Comprehensive%20Project%20Report.pdf 
+
+
+
+## Conclusion
+
+This project demonstrates how **data-driven decision-making** can optimize procurement, reduce costs, and improve profitability by balancing **volume-driven and margin-driven strategies**.
 
 ---
 
