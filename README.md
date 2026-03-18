@@ -2,7 +2,9 @@
 
 An end-to-end data analytics project that transforms **1.8GB+ of raw transactional data** into actionable business insights using **Python, SQL, and Power BI**.
 
+*Refer to the full Project Report* : 
 
+[![View Report](https://img.shields.io/badge/📄%20View-Detailed%20Report-blue?style=for-the-badge)](https://github.com/ShehrazSarwar/Vendor-Performance-Analysis/blob/main/Comprehensive%20Project%20Report.pdf)
 
 ## Project Overview
 
@@ -57,15 +59,6 @@ This project builds a **production-grade analytics pipeline** to analyze vendor 
 * Large-scale **SQL aggregation (multi-million rows)**
 * **Statistical validation (T-Test, Confidence Intervals)**
 * Interactive **Power BI dashboard**
-
-
-
-## 📄 Project Report
-
-For detailed analysis, methodology, and insights:
-
-👉 *Refer to the full Project Report* : https://github.com/ShehrazSarwar/Vendor-Performance-Analysis/blob/main/Comprehensive%20Project%20Report.pdf 
-
 
 
 ## Conclusion
